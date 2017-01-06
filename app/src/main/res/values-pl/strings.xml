@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tutorials</string>
+    <string name="button_send">Wyslij</string>
+    <string name="edit_message">Wpisz wiadomosc</string>
+    <string name="Ok">Dalej</string>
+    <string name="empty">pusty</string>
+</resources>

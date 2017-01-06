@@ -21,13 +21,13 @@ public class DisplayMessageActivity extends AppCompatActivity {
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         if(message.isEmpty()) {
-            textView.setText("empty");
+            textView.setText(R.string.empty);
         }else{
             textView.setText(message);
         }
 
         Button button = new Button(this);
-        button.setText("Ok");
+        button.setText(R.string.ok);
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
